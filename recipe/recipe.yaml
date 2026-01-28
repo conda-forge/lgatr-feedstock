@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lgatr
-  version: "1.4.2"
+  version: "1.4.3"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lgatr-${{ version }}.tar.gz
-  sha256: 518e82c477ab3f03be2549281b9922c25e21dedc553a063edd3acf70a0c438c2
+  sha256: edcbaafedfdd12ceb013ba1316cef7a0ca2475cb7de86331044c875537e9b94a
 
 build:
   number: 0
